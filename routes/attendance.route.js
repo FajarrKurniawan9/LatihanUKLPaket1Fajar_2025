@@ -3,6 +3,7 @@ import {
   postAttendance,
   getAttendanceByID,
   getSummaryMothlyAttendance,
+  postAnalysisAttendance,
 } from "../controllers/attendance.controller.js";
 
 const app = express();
